@@ -20,7 +20,7 @@ class Navbar extends Component{
                     {MenuItems.map((item, index)=>{
                         return(
                             <li key={index}>
-                                <link className={item.cName} to={item.url}><i className={item.icon}></i>{item.title}</link>
+                                <Link className={item.cName} to={item.url}><i className={item.icon}></i>{item.title}</Link>
                             </li>
                         );
                     })}
