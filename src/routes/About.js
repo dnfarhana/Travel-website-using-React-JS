@@ -8,6 +8,7 @@ function About(){
         <>
         <Navbar></Navbar>
         <Hero cName="hero-mid" heroImg={AboutImg} title="About" btnClass="hide"/>
+        
         <Footer/>
         </>
     );
